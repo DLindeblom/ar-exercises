@@ -9,4 +9,5 @@ puts "----------"
 @store3 = Store.third
 puts @store3.name
 @store3.destroy
-puts Stores.count
+puts Store.count
+
